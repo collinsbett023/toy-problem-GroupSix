@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculate grades, speed and net salary</title>
+  </head>
+  <body>
+    <h1>Calculate grades, speed and net salary</h1>
+    <div class="container">
+      <!--student grade calculator-->
+      <div class="card">
+        <h3>Student grades Calculator</h3>
+        <form>
+          <label for="marks">Enter student marks (0 to 100)</label>
+          <input type="number" id="marks" placeholder="grades...." />
+          <button type="button" onclick="computeGrades()">compute</button>
+        </form>
+        <div id="grade"></div>
+      </div>
+      <!--speed calculator-->
+      <div class="card">
+        <h3>Speed calculator</h3>
+        <form id="form">
+          <label for="speed">Enter speed: </label>
+          <input
+            type="number"
+            id="speed"
+            placeholder="speed avoid 135 km/h ...."
+          />
+          <button type="button" onclick="computeSpeed()">compute</button>
+        </form>
+        <div id="result"></div>
+      </div>
+      <!--Net salary code-->
+      <div class="card">
+        <h3>Net Salary Calculator</h3>
+
+        <h4>compute for net salary below</h4>
+        <input id="income" type="number" placeholder="income..." />
+        <input id="benefit" type="number" placeholder="benefits.." />
+        <button id="btn" type="button" onclick="netIncome()">compute</button>
+        <p id="salary"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
