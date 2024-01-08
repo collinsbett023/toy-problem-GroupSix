@@ -3,7 +3,7 @@ created using simple html elements a div,form with label and input and a button.
 3cards nested in a container with some css style and javaScript
 
 # Authors
- Josephine mueni , Martin ,Collins,Lameck
+ Josephine mueni , Martin ,Collins Bett,Lameck
 
 
  # Challenge 1: Student Grade Generator
